@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Guess The Number!</h1>
+        <p class="hint">It is a Number between 1 and 9. Guess The Number</p>
+        <p class="hint score-p">Your Guessing Accuracy is: <span class="score"></span>%</p>
+    </div>
+    <div class="container">
+        <button class="box box1"  value="1">1</button>
+        <button class="box box2" value="2">2</button>
+        <button class="box box3" value="3">3</button>
+        <button class="box box4" value="4">4</button>
+        <button class="box box5" value="5">5</button>
+        <button class="box box6" value="6">6</button>
+        <button class="box box7" value="7">7</button>
+        <button class="box box8" value="8">8</button>
+        <button class="box box9" value="9">9</button>
+    </div>
+    <button class="play">Play</button>
+
+    <audio  class="correct-tone" src="sounds/zapsplat_multimedia_correct_tone_beep_17736.mp3"></audio>
+    <audio  class="wrong-tone" src="sounds/zapsplat_multimedia_game_error_tone_001_24919.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
