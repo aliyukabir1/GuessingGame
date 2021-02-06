@@ -25,7 +25,7 @@ function generateRandom(){
     boxes.forEach(box=> {
         box.disabled = false
         box.style.background = 'white'
-
+        score.textContent = 0
     });    
      chosenNumber = Math.floor(Math.random()*(10 - 1) + 1);
      return chosenNumber
